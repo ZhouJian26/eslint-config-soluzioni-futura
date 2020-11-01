@@ -37,6 +37,7 @@ module.exports = {
     "quote-props": ["error", "as-needed"],
     "arrow-spacing": ["error"],
     "space-before-blocks": ["error", "always"],
-    "spaced-comment" : ["error", "always"]
+    "spaced-comment" : ["error", "always"],
+    "max-len": ["error", { ignoreUrls: true }]
   }
 }
